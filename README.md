@@ -99,4 +99,10 @@ CycleGan是在基础gan模型上实现的，是一种用于图像到图像转换
 
 ### 2.2.生成器和判别器的模型结构
 
+生成器模型结构
+![CycleGan (1)](https://github.com/user-attachments/assets/8e1bee62-ead9-496c-be3c-07e74e265dee)
+
+判别器模型结构
+
+
 
