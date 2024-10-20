@@ -13,7 +13,7 @@ Linux系统下可通过bash脚本下载数据集:
 
 Windows系统则需要手动下载数据集:
 
-复制网址`http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/`到浏览器打开选择自己喜欢的数据集下载，并调整为如下所示的文件目录结构
+复制网址`http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/`到浏览器打开选择monet2photo数据集下载，并调整为如下所示的文件目录结构
 
 下载好的数据集目录应该为:
 ```
