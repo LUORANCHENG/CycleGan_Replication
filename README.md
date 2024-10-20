@@ -13,7 +13,8 @@ https://github.com/eriklindernoren/PyTorch-GAN
 ## 项目简介
 
 本项目为深度学习的课程作业，使用CycleGan模型实现将现实的照片转换为莫奈风格的画
-![image](https://github.com/user-attachments/assets/dc83474c-0e9c-47fb-92c9-6b5b3a5b1832)
+![picture2monet](https://github.com/user-attachments/assets/e44d811d-dd70-46e1-98b2-a69193a6d3c7)
+
 
 
 
@@ -79,7 +80,6 @@ GAN的核心公式：
 ### 2.什么是CycleGan
 
 CycleGan是在基础gan模型上实现的，是一种用于图像到图像转换的深度学习模型，它能够在没有成对训练数据的情况下，实现不同图像域之间的转换。比如说，CycleGan可以实现将一张真实的照片转换为莫奈风格的油画，同时也可以实现将莫奈风格的油画转换回真实的照片
-
-![picture2monet](https://github.com/user-attachments/assets/e44d811d-dd70-46e1-98b2-a69193a6d3c7)
+![image](https://github.com/user-attachments/assets/dc83474c-0e9c-47fb-92c9-6b5b3a5b1832)
 
 
