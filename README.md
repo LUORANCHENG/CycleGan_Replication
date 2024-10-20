@@ -3,7 +3,9 @@ https://github.com/eriklindernoren/PyTorch-GAN
 
 https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
 
-https://www.bilibili.com/video/BV1qVmwYfEN4/?spm_id_from=333.337.search-card.all.click&vd_source=1a02178b1644ddc9b579739c3c1616b4
+[GAN生成对抗网络原理及cyclegan pytorch实战：天气季节转换 物种变换 医疗转换 建筑外立面转设计图_计算机视觉](https://www.bilibili.com/video/BV1qVmwYfEN4/?spm_id_from=333.337.search-card.all.click&vd_source=1a02178b1644ddc9b579739c3c1616b4)
+
+[精读CycleGAN论文-拍案叫绝的非配对图像风格迁移](https://www.bilibili.com/video/BV1Ya411a78P/?spm_id_from=333.337.search-card.all.click&vd_source=1a02178b1644ddc9b579739c3c1616b4)
 
 ## 安装
     $ conda create -n CycleGan python=3.8
