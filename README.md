@@ -1,4 +1,15 @@
-## 参考项目
+## 目录：
+
+- [参考项目](#section1)
+- [项目简介](#section2)
+- [安装](#section3)
+- [运行](#section4)
+- [原理介绍](#section5)
+    - [1.什么是生成对抗网络gan](#subsection1)
+    - [2.什么是CycleGan](#subsection2)
+
+
+## 参考项目<a name="section1"></a>
 https://github.com/junyanz/CycleGAN
 
 https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
@@ -10,7 +21,7 @@ https://github.com/eriklindernoren/PyTorch-GAN
 [精读CycleGAN论文-拍案叫绝的非配对图像风格迁移](https://www.bilibili.com/video/BV1Ya411a78P/?spm_id_from=333.337.search-card.all.click&vd_source=1a02178b1644ddc9b579739c3c1616b4)
 
 
-## 项目简介
+## 项目简介<a name="section2"></a>
 
 本项目为深度学习的课程作业，使用CycleGan模型实现将现实的照片转换为莫奈风格的画
 ![picture2monet](https://github.com/user-attachments/assets/e44d811d-dd70-46e1-98b2-a69193a6d3c7)
@@ -18,14 +29,14 @@ https://github.com/eriklindernoren/PyTorch-GAN
 
 
 
-## 安装
+## 安装<a name="section3"></a>
     $ conda create -n CycleGan python=3.8
     $ conda activate CycleGan
     $ git clone https://github.com/LUORANCHENG/CycleGan.git
     $ cd CycleGan/
     $ pip install -r requirements.txt
 
-## 运行
+## 运行<a name="section4"></a>
 Linux系统下可通过bash脚本下载数据集:
 
     $ cd datasets/
@@ -49,8 +60,8 @@ datasets
 回到项目根目录下，执行`cyclegan.py`开始训练
 
     $ python cyclegan.py --dataset_name monet2photo
-## 原理介绍
-### 1.什么是生成对抗网络gan
+## 原理介绍<a name="section5"></a>
+### 1.什么是生成对抗网络gan<a name="subsection1"></a>
 
 GAN的核心思想是通过生成器和判别器之间的对抗过程，使得生成器能够生成以假乱真的数据，而判别器则努力区分真实数据和生成的数据。这个过程类似于一个零和博弈，其中两个网络不断优化自己以提高对抗能力。
 
@@ -77,7 +88,7 @@ GAN的核心公式：
 
 这个过程通过最小化生成器和判别器之间的差异来进行，最终目标是使判别器无法区分真实数据和生成的数据，即达到 纳什均衡
 
-### 2.什么是CycleGan
+### 2.什么是CycleGan<a name="subsection2"></a>
 
 CycleGan是在基础gan模型上实现的，是一种用于图像到图像转换的深度学习模型，它能够在没有成对训练数据的情况下，实现不同图像域之间的转换。比如说，CycleGan可以实现将一张真实的照片转换为莫奈风格的油画，同时也可以实现将莫奈风格的油画转换回真实的照片
 ![image](https://github.com/user-attachments/assets/dc83474c-0e9c-47fb-92c9-6b5b3a5b1832)
