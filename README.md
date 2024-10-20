@@ -6,7 +6,7 @@
     $ pip install -r requirements.txt
 
 ## 运行
-    $ cd data/
+    $ cd datasets/
     $ bash download_cyclegan_dataset.sh monet2photo
     $ cd ..
     $ python cyclegan.py --dataset_name monet2photo
