@@ -1,3 +1,10 @@
+## 参考项目
+https://github.com/eriklindernoren/PyTorch-GAN
+
+https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
+
+https://www.bilibili.com/video/BV1qVmwYfEN4/?spm_id_from=333.337.search-card.all.click&vd_source=1a02178b1644ddc9b579739c3c1616b4
+
 ## 安装
     $ conda create -n CycleGan python=3.8
     $ conda activate CycleGan
