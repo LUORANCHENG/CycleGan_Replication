@@ -8,5 +8,17 @@
 ## 运行
     $ cd datasets/
     $ bash download_cyclegan_dataset.sh monet2photo
-    $ cd ..
+下载好的数据集目录应该为
+```
+datasets
+ └── monet2photo
+   └── train
+    ├── A
+    └── B
+   └── test
+    ├── A
+    └── B
+```
+回到项目根目录下
+
     $ python cyclegan.py --dataset_name monet2photo
