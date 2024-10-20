@@ -11,11 +11,11 @@ Linux系统下可通过bash脚本下载数据集:
     $ cd datasets/
     $ bash download_cyclegan_dataset.sh monet2photo
 
-Windows系统则需要手动下载数据集
+Windows系统则需要手动下载数据集:
 
 复制网址`http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/`到浏览器打开选择自己喜欢的数据集下载，并调整为如下所示的文件目录结构
 
-下载好的数据集目录应该为
+下载好的数据集目录应该为:
 ```
 datasets
  └── monet2photo
@@ -26,6 +26,6 @@ datasets
     ├── A
     └── B
 ```
-回到项目根目录下
+回到项目根目录下，执行`cyclegan.py`开始训练
 
     $ python cyclegan.py --dataset_name monet2photo
