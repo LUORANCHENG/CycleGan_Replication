@@ -77,10 +77,10 @@ GAN的核心公式：
 ![gan_公式](https://github.com/user-attachments/assets/1a6039d2-90bf-4b6a-99db-bc53dd1c1de6)
 
 从判别器角度来理解公式：
-![判别器角度](https://github.com/user-attachments/assets/875a36b1-c313-422a-9838-d9b8dade4574)
+![判别器角度公式](https://github.com/user-attachments/assets/394f3b2b-352b-4985-89b6-6b1acd95fbff)
 
 从生成器角度来理解公式：
-![生成器角度](https://github.com/user-attachments/assets/a6a8a5f8-b566-4c86-88b4-cccead79309e)
+![生成器角度公式](https://github.com/user-attachments/assets/f4f5d1e5-5091-484b-828f-07b03ca2ed99)
 
 训练过程：
 
