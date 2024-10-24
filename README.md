@@ -126,7 +126,7 @@ CycleGan是在基础gan模型上实现的，是一种用于图像到图像转换
 
 ![图片](https://github.com/user-attachments/assets/eccde6b8-15a6-4455-ac2f-d50c3b3082cc)
 
-注：Identity loss的作用主要是为了保持图像的整体色调不发生大的变化，如果不加Identity loss，那么生成器可能会自主地修改图像的色调，使得整体的颜色产生变化，如下图所示
+注：Identity loss的作用主要是为了保持图像的整体色调不发生大的变化，如果不加Identity loss，那么生成器可能会自主地修改图像的色调，使得整体的颜色产生变化，如下图所示：
 
 ![图片](https://github.com/user-attachments/assets/19efc92e-36ac-4654-8761-8000e9080f4b)
 
