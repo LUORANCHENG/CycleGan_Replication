@@ -108,7 +108,30 @@ CycleGan是在基础gan模型上实现的，是一种用于图像到图像转换
 
 (c)部分：同(b)部分
 
-### 2.2.生成器和判别器的模型结构
+#### 2.2.CycleGan的关键损失
+
+(1)Dy处的GAN损失：
+
+![图片](https://github.com/user-attachments/assets/4cd5f2fa-b0e5-4854-9820-75fd17188e2e)
+
+(2)Dx处的GAN损失:
+
+![图片](https://github.com/user-attachments/assets/06b512bc-e83e-4d5c-860a-c9ce5d150669)
+
+(3)循环一致性损失
+
+![图片](https://github.com/user-attachments/assets/0de42b9e-3cd9-4471-99d1-01c23c10fe3a)
+
+(4)Identity loss
+
+![图片](https://github.com/user-attachments/assets/3bad0e56-0eee-424a-a7d3-64e3236d89a2)
+
+注：Identity loss的作用主要是为了保持图像的整体色调不发生大的变化，如果不加Identity loss，那么生成器可能会自主地修改图像的色调，使得整体的颜色产生变化，如下图所示
+
+![图片](https://github.com/user-attachments/assets/75b603f3-e60a-4f32-b0c4-e535d868bf21)
+
+
+#### 2.3.生成器和判别器的模型结构
 
 <div style="text-align: center"><strong>生成器模型结构</strong></div>
 
